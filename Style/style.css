@@ -1,0 +1,122 @@
+/* HEAD OF THE CONTENT */
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .15rem solid;
+    width: 60%;
+    padding-bottom: 0.3rem;
+}
+
+.picture{
+    margin-left: 7rem;
+}
+
+.name{
+    color: black;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.details{
+    color: #616161;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #616161;
+    font-size: 0.8rem;
+}
+
+/* BODY OF THE CONTENT */
+/* EXPERIENCES */
+
+.content-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary{
+    padding-top: 0.5rem;
+    font-size: medium;
+    color: #494949;  
+}
+
+.experiences{
+    color: #1b1b1b;
+    align-self:initial;  
+}
+.experiences-inner{
+    padding-left: 3rem;
+}
+
+
+.duration{
+    color: #494949;
+    font-weight: bold;
+    margin: .3rem 0;
+}
+
+.role{
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.company{
+    color: #494949;
+    font-weight: bold;
+}
+
+/* EDUCATION*/
+
+.education{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #1b1b1b;
+}
+
+.education-inner{
+    padding-left: 2.5rem;
+    margin-top: -1rem;
+}
+
+.program{
+    color: #2e7d32;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.school{
+    color: #494949;
+    font-weight: bold;
+}
+
+table{
+    width: 60%;
+    margin: 0 auto 2rem auto;
+    padding-left: 2.5rem;
+}
+
+.skills-header{
+    color: #1b1b1b;
+    width: 60%;
+    margin: 1.5rem auto 0.3rem auto;
+}
+
+.skill{
+    color: #2e7d32;
+    font-weight: bold;
+}
