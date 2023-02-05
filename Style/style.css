@@ -166,12 +166,13 @@ table{
         font-size: 2.3rem;
         font-weight: 500;
         text-align: center;
+        margin-bottom: 0.2rem;
     }
 
     a:link, a:visited{
         text-decoration: none;
         color: #616161;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     h5{
@@ -182,8 +183,13 @@ table{
     .details{
         color: #616161;
         text-decoration: none;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         text-align: center;
+    }
+
+    .summary{
+        font-size: 0.9rem;
+        padding-top: 0;
     }
 
     table{
