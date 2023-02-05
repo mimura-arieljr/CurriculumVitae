@@ -14,6 +14,7 @@ a:link, a:visited{
     text-decoration: none;
     color: #616161;
     font-size: 1.9vh;
+    text-align: center;
 }
 
 li{
@@ -22,6 +23,8 @@ li{
 
 td{
     font-size: 2.15vh;
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
 }
 
 /* HEAD OF THE CONTENT */
@@ -70,6 +73,7 @@ img{
     padding-top: 0.5rem;
     font-size: 2.2vh;
     color: #494949;  
+    text-align: justify;
 }
 
 .experiences{
@@ -127,8 +131,7 @@ img{
 /* SKILL*/
 
 table{
-    padding-bottom: 2.2vh;
-    border-spacing: 3.125rem 0.3rem;
+    padding-bottom: 4.2vh;
 }
 
 .skills-header{
@@ -140,4 +143,36 @@ table{
     color: #2e7d32;
     font-weight: bold;
     font-size: 2.2vh;
+}
+
+
+/*media queries*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    img{
+        display: none;
+    }
+
+    table{
+        padding-bottom: 2.2vh;
+        /* border-spacing: 1.125rem 0.3rem; */
+        /* margin-left: -2rem; */
+    }
+    
+    .skills-header{
+        color: #1b1b1b;
+        font-size: 2.5vh;
+    }
+    
+    .skill{
+        color: #2e7d32;
+        font-weight: bold;
+        font-size: 2.2vh;
+    }
+
+    td {
+        display: inline-block;
+        padding: 0.2rem 0.8rem;
+    }
 }
