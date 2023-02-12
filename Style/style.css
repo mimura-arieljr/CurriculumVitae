@@ -1,27 +1,28 @@
 /* Global Styling */
 
-body{
+body {
     margin: auto;
     width: 80%;
     justify-content: center;
 }
 
-h3{
+h3 {
     font-size: 2.5vh;
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     text-decoration: none;
     color: #616161;
     font-size: 1.9vh;
     text-align: center;
 }
 
-li{
+li {
     font-size: 2.15vh;
 }
 
-td{
+td {
     font-size: 2.15vh;
     display: inline-block;
     padding: 0.2rem 0.8rem;
@@ -29,7 +30,7 @@ td{
 
 /* HEAD OF THE CONTENT */
 
-.heading{
+.heading {
     display: flex;
     margin: auto;
     justify-content: space-evenly;
@@ -38,22 +39,22 @@ td{
     padding-bottom: 0.3rem;
 }
 
-.heading-info{
+.heading-info {
     margin-left: 10vw;
 }
 
-img{
+img {
     height: 12vw;
 }
 
-.name{
+.name {
     color: black;
     font-size: 6.2vh;
     font-weight: 500;
     text-align: center;
 }
 
-.details{
+.details {
     color: #616161;
     text-decoration: none;
     font-size: 1.9vh;
@@ -63,40 +64,41 @@ img{
 /* BODY OF THE CONTENT */
 /* EXPERIENCES */
 
-.content-body{
+.content-body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.summary{
+.summary {
     padding-top: 0.5rem;
-    font-size: 2.2vh;
-    color: #494949;  
+    font-size: 2.1vh;
+    color: #494949;
     text-align: justify;
 }
 
-.experiences{
+.experiences {
     color: #1b1b1b;
 }
-.experiences-inner{
+
+.experiences-inner {
     padding-left: 3.2vw;
 }
 
-.duration{
+.duration {
     color: #494949;
     font-weight: bold;
     font-size: 2.15vh;
     margin: .3rem 0;
 }
 
-.role{
+.role {
     color: #2e7d32;
     font-weight: bold;
     font-size: 2.15vh;
 }
 
-.company{
+.company {
     color: #494949;
     font-weight: bold;
     font-size: 2.15vh;
@@ -104,25 +106,25 @@ img{
 
 /* EDUCATION*/
 
-.education{
+.education {
     display: flex;
     flex-direction: column;
     color: #1b1b1b;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.4rem;
 }
 
-.education-inner{
+.education-inner {
     padding-left: 3.2vw;
 }
 
-.program{
+.program {
     color: #2e7d32;
     font-weight: bold;
     padding-bottom: 1rem;
     font-size: 2.15vh;
 }
 
-.school{
+.school {
     color: #494949;
     font-weight: bold;
     font-size: 2.15vh;
@@ -130,38 +132,57 @@ img{
 
 /* SKILL*/
 
-table{
-    padding-bottom: 4.2vh;
+.skills {
+    width: 100%;
 }
 
-.skills-header{
-    color: #1b1b1b;
-    font-size: 2.5vh;
+.skill-list {
+    padding-left: 3.2vw;
 }
 
-.skill{
-    color: #2e7d32;
-    font-weight: bold;
-    font-size: 2.15vh;
+
+/* BUTTON STYLE */
+
+.button-pdf {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: flex-start;
+    padding: 2rem;
 }
 
+.btn {
+    background-color: #61876E;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.875rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.btn:hover {
+    background-color: #3C6255;
+}
+
+/* .btn:focus{
+    background-color: #2e7d32;
+} */
 
 /*media queries*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    img{
+    img {
         display: none;
     }
 
-    .heading-info{
+    .heading-info {
         margin-left: 0;
         display: flex;
         flex-direction: column;
         margin: auto;
     }
 
-    .name{
+    .name {
         color: black;
         font-size: 2.3rem;
         font-weight: 500;
@@ -169,35 +190,47 @@ table{
         margin-bottom: 0.2rem;
     }
 
-    a:link, a:visited{
+    a:link,
+    a:visited {
         text-decoration: none;
         color: #616161;
         font-size: 0.7rem;
     }
 
-    h5{
+    h5 {
         text-align: center;
         margin: 0.3rem 0;
     }
-    
-    .details{
+
+    .details {
         color: #616161;
         text-decoration: none;
         font-size: 0.7rem;
         text-align: center;
     }
 
-    .summary{
+    .summary {
         font-size: 0.9rem;
         padding-top: 0;
     }
 
-    table{
-        padding-bottom: 2.2vh;
+    .skill-list {
+        list-style: none;
+        text-align: center;
+    }
+
+    .button-pdf {
+       display: flex;
+       justify-content: center;
     }
     
-    td {
-        display: inline-block;
-        padding: 0.2rem 0.8rem;
+    .btn {
+        background-color: #61876E;
+        border: none;
+        color: white;
+        padding: 0.6rem 1.6rem;
+        cursor: pointer;
+        font-size: 1rem;
     }
+
 }
