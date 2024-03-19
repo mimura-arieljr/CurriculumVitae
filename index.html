@@ -7,120 +7,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script src="./script.js"></script>
+
+
     <title>Ariel Jr Mimura</title>
 </head>
 
-<div>
-    <div class="heading-container">
-        <div class="heading">
-            <div class="heading-info">
+<body>
+    <div id="download-body">
+        <div class="heading-container">
+            <div class="heading">
+                <div class="heading-info">
                     <h1 class="name">ARIEL JR MIMURA</h1>
                     <h5 class="details">📭 Dela Costa 3, San Jose del Monte, Bulacan, Philippines</h5>
                     <h5><a href="mailto:avmimurajr@gmail.com">📧 avmimurajr@gmail.com</a> ∙ <a
-                            href="tel:+639561568300">📞 +639561568300</a> ∙
+                            href="tel:+639561568300">📞
+                            +639561568300</a> ∙
                         <a href="https://www.linkedin.com/in/ariel-jr-mimura-7ab978179/?originalSubdomain=ph">💻
                             tinyurl.com/linkedin-arielmimurajr</a>
                     </h5>
-            </div>
-            <div class="picture">
-                <img src="./Resources/Mimura_ArielJr-circle.png" alt="Ariel Picture">
-            </div>
-        </div>
-    </div>
-    <div class="content-body">
-        <h4 class="summary">A licensed civil engineer and trained full stack engineer 
-            with four years of total work experience in software development, project planning and sales engineering.
-        </h4>       
-        <div class="skills">
-            <h3>SKILLS</h3>
-            <div class="skill-list">
-                <li>.Net | React | Xamarin | Nodejs | C# | JavaScript | Python | HTML | CSS | Bootstrap | MSSQL | Azure | Xcode | Git</li>
-                <li>Process Documentation | Robotic Process Automation | Primavera P6 | AutoCAD | MS Office</li>
-            </div>
-        </div>
-        <div class="experiences">
-            <h3>EXPERIENCES</h3>
-            <div class="experiences-inner">
-                <p class="duration">SEPTEMBER 2022 - PRESENT</p>
-                <div class="role-company">
-                    <span class="role">SOFTWARE ENGINEER,</span> <span class="company"> NLP LOGIX</span>
                 </div>
-                <ul>
-                    <li>Monitors, maintains, and troubleshoots Robotic Process Automation (RPA) of more than 200 bots to ensure that business processes function at optimum efficiency.</li>
-                    <li>Design and develop code solutions to existing programs written in Python and C# by 
-                        analyzing and identifying areas for modification to adapt to changing requirements of client’s business automated processes.</li>
-                    <li>Produces process documents to outline errors and successes and refine future processes.</li>
-                    <li>Uses Azure resources for code deployment, app health monitoring and RPA failure analysis.</li>
-                    <li>Writes Python scripts to automate repetitive tasks.</li>
-                </ul>
+                <div class="picture">
+                    <img src="./Resources/Mimura_ArielJr-circle.png" alt="Ariel Picture">
+                </div>
+            </div>
+        </div>
+        <div class="content-body">
+            <h4 class="summary">A licensed civil engineer and trained full stack engineer
+                with four years of total work experience in software development, project planning and sales
+                engineering.
+            </h4>
+            <div class="skills">
+                <h3>SKILLS</h3>
+                <div class="skill-list">
+                    <li>.NET | React | Xamarin | Nodejs | C# | JavaScript | Typescript | Python </li>
+                    <li>Robotic Process Automation | MSSQL | Azure | AWS | GIT | HTML | CSS | Bootstrap </li>
+                </div>
+            </div>
+            <div class="experiences">
+                <h3>EXPERIENCES</h3>
+                <div class="experiences-inner">
 
-                <p class="duration">NOVEMBER 2021 - SEPTEMBER 2022</p>
-                <div class="role-company">
-                    <span class="role">SOFTWARE ENGINEER,</span> <span class="company"> POINTWEST INNOVATIONS
+                    <!-- amaysim @NCSI -->
+                    <p class="duration">SEPTEMBER 2023 - PRESENT</p>
+                    <div class="role-company">
+                        <span class="role">SOFTWARE ENGINEER,</span> <span class="company"> NCSI PHILIPPINES INC</span>
+                    </div>
+                    <ul>
+                        <li>Co-developed and implemented a state machine to orchestrate the automated migration of
+                            200,000 customer base from an acquired telecom company, ensuring a seamless service
+                            transition and enhancing customer experience.</li>
+                        <li>Tasked with handling both ad hoc and Business-As-Usual (BAU) tickets.</li>
+                        <li>Leveraged cloud technologies for developing scalable, maintainable solutions with clean,
+                            reusable code.</li>
+                        <li>Contributed to process improvements by integrating Agile methodologies, boosting
+                            productivity and project predictability.</li>
+                    </ul>
+
+                    <!-- NLP Logix -->
+                    <p class="duration">SEPTEMBER 2022 - SEPTEMBER 2023</p>
+                    <div class="role-company">
+                        <span class="role">SOFTWARE ENGINEER,</span> <span class="company"> NLP LOGIX</span>
+                    </div>
+                    <ul>
+                        <li>Monitors, maintains, and troubleshoots Robotic Process Automation (RPA) of more than 200
+                            bots to ensure that business processes function at optimum efficiency.</li>
+                        <li>Design and develop code solutions to existing programs written in Python and C# by
+                            analyzing and identifying areas for modification to adapt to changing requirements of
+                            client’s business automated processes.</li>
+                        <li>Produces process documents to outline errors and successes and refine future processes.</li>
+                        <li>Uses Azure resources for code deployment, app health monitoring and RPA failure analysis.
+                        </li>
+                        <li>Writes Python scripts to automate repetitive tasks.</li>
+                    </ul>
+
+                    <!-- Pointwest -->
+                    <p class="duration">NOVEMBER 2021 - SEPTEMBER 2022</p>
+                    <div class="role-company">
+                        <span class="role">SOFTWARE ENGINEER,</span> <span class="company"> POINTWEST INNOVATIONS
+                            CORPORATION</span>
+                    </div>
+                    <ul>
+                        <li>Mobile Developer adept in Xamarin framework. Assigned to UI/UX design focusing on
+                            application
+                            rebranding for private labeling.</li>
+                        <li>Implemented App localization specifically Language Translation for a mobile app.</li>
+                        <li>Full Stack Developer trained in ReactJS, Microsoft’s .Net, C#, HTML, CSS, and JavaScript.
+                        </li>
+                        <li>Assisted in creating an Azure pipeline for automating building, code obfuscation and
+                            generation
+                            of
+                            MSI
+                            and EXE installers
+                            of a Windows Forms Desktop application.</li>
+                        <li>Deployed an iOS mobile application to AppStore.</li>
+                    </ul>
+
+                    <!-- DATEM & BMB Steel -->
+                    <p class="duration">JANUARY 2020 - NOVEMBER 2021</p>
+                    <div class="role-company">
+                        <span class="role">PLANNING ENGINEER,</span><span class="company"> DATEM INCORPORATED</span>
+                    </div>
+                    <ul>
+                        <li>Prepares work program and target milestone of the project based on the approved plan.</li>
+                        <li>Monitors project critical activities and identifies causes of delays and provides recovery
+                            program
+                            when
+                            necessary and/or
+                            prepares for time extensions claims if needed.</li>
+
+                    </ul>
+                    <div class="role-company">
+                        <span class="role">PROJECT AND SALES ENGINEER,</span><span class="company"> BMB STEEL
+                            PHILIPPINES</span>
+                    </div>
+                    <ul>
+                        <li>Conducts client meetings to seek new projects by marketing the company and PreEngineered
+                            Steel
+                            as
+                            its
+                            offered product and service</li>
+                        <li>Manages, directs, and monitors the progress of awarded projects from tender stage to
+                            turnover.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="education">
+            <h3>EDUCATION AND TRAININGS</h3>
+            <div class="education-inner">
+                <p class="duration">JUNE 2012 - NOVEMBER 2018</p>
+                <div class="program-school">
+                    <span class="program">BS. CIVIL ENGINEERING,</span><span class="school"> MAPÚA UNIVERSITY</span>
+                </div>
+                <p class="duration">NOVEMBER 2021 - FEBRUARY 2022</p>
+                <div class="program-school">
+                    <span class="program">FULL STACK WEB DEVELOPMENT,</span><span class="school"> POINTWEST INNOVATIONS
                         CORPORATION</span>
                 </div>
-                <ul>
-                    <li>Mobile Developer adept in Xamarin framework. Assigned to UI/UX design focusing on application
-                        rebranding for private labeling.</li>
-                    <li>Implemented App localization specifically Language Translation for a mobile app.</li>
-                    <li>Full Stack Developer trained in ReactJS, Microsoft’s .Net, C#, HTML, CSS, and JavaScript.</li>
-                    <li>Assisted in creating an Azure pipeline for automating building, code obfuscation and generation
-                        of
-                        MSI
-                        and EXE installers
-                        of a Windows Forms Desktop application.</li>
-                    <li>Deployed an iOS mobile application to AppStore.</li>
-                </ul>
-
-                <p class="duration">JANUARY 2020 - NOVEMBER 2021</p>
-                <div class="role-company">
-                    <span class="role">PLANNING ENGINEER,</span><span class="company"> DATEM INCORPORATED</span>
+                <p class="duration">JUNE 2022</p>
+                <div class="program-school">
+                    <span class="program">JAVA DEVELOPMENT BOOTCAMP,</span><span class="school"> MAPÚA UNIVERSITY
+                        (SPONSORED
+                        BY INDRA PH.)</span>
                 </div>
-                <ul>
-                    <li>Prepares work program and target milestone of the project based on the approved plan.</li>
-                    <li>Monitors project critical activities and identifies causes of delays and provides recovery
-                        program
-                        when
-                        necessary and/or
-                        prepares for time extensions claims if needed.</li>
-                </ul>
-                <div class="role-company">
-                    <span class="role">PROJECT AND SALES ENGINEER,</span><span class="company"> BMB STEEL
-                        PHILIPPINES</span>
-                </div>
-                <ul>
-                    <li>Conducts client meetings to seek new projects by marketing the company and PreEngineered Steel
-                        as
-                        its
-                        offered product and service</li>
-                    <li>Manages, directs, and monitors the progress of awarded projects from tender stage to turnover.
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="education">
-        <h3>EDUCATION AND TRAININGS</h3>
-        <div class="education-inner">
-            <p class="duration">JUNE 2012 - NOVEMBER 2018</p>
-            <div class="program-school">
-                <span class="program">BS. CIVIL ENGINEERING,</span><span class="school"> MAPÚA UNIVERSITY</span>
-            </div>
-            <p class="duration">NOVEMBER 2021 - FEBRUARY 2022</p>
-            <div class="program-school">
-                <span class="program">FULL STACK WEB DEVELOPMENT,</span><span class="school"> POINTWEST INNOVATIONS
-                    CORPORATION</span>
-            </div>
-            <p class="duration">JUNE 2022</p>
-            <div class="program-school">
-                <span class="program">JAVA DEVELOPMENT BOOTCAMP,</span><span class="school"> MAPÚA UNIVERSITY (SPONSORED
-                    BY INDRA PH.)</span>
             </div>
         </div>
     </div>
     <div class="button-pdf">
-        <button class="btn" onclick="window.location.href='https://drive.google.com/u/0/uc?id=1hlacL1oGm5L_Wmn7nwS11K6g1SjwE_cV&export=download';"><i class="fa fa-download"></i> Download</button>
+        <!-- <button class="btn" onclick="downloadPDF();"><i class="fa fa-download"></i> Download</button> -->
         <button class="btn"><a href="mailto:avmimurajr@gmail.com"><i class="fa fa-envelope"></i> Email me</a></button>
     </div>
 </body>
